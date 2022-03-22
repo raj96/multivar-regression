@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="description"
+            content="Linear Regression with multiple variables"
+        />
+        <title>Multi variable Regression</title>
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mada:wght@300;500;700&family=Montserrat&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <body>
+        <nav class="navbar">
+            <div class="navbar-text">Multi-variable Regression</div>
+        </nav>
+        <div id="canvas-container"></div>
+        <div class="theta-controls">
+            <button onclick="increaseThetas();">Increase Thetas</button>
+            <button onclick="resetThetas();">Reset Thetas</button>
+            <button onclick="decreaseThetas();">Decrease Thetas</button>
+        </div>
+        <div class="point-controls">
+            <button onclick="removeAllPoints();">Remove All Points</button>
+        </div>
+    </body>
+    <script
+        type="text/javascript"
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"
+    ></script>
+    <script src="main.js" charset="utf-8"></script>
+</html>

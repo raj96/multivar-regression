@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  background: rgba(137, 43, 226, 0.411);
+  font-family: 'Mada', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  font-size: 1rem;
+  border-radius: 0;
+  border:0;
+  border: solid white 1px;
+  padding: 0.5rem;
+  background-color: blueviolet;
+  color:white;
+}
+
+.navbar {
+  background: blueviolet;
+  color: white;
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.navbar-text {
+  margin-left: 1rem;
+}
+
+.point-controls, .theta-controls {
+  margin-top: 1rem;
+}
