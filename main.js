@@ -10,6 +10,7 @@ let numberOfThetas = 2;
 let lineResolution = 0.1;
 let thetas = [];
 let fps;
+let correctThetasFor = 50;
 
 //y = theta1 * x + theta0
 function hTheta(x) {
@@ -111,7 +112,9 @@ function draw() {
   drawTextInformation();
   
   if (xs.length > 0) {
-    correctThetas();
+    for(let i = 0; i < correctThetasFor;i++) {
+      correctThetas();
+    }
   }
 }
 
