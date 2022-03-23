@@ -85,6 +85,7 @@ function drawTextInformation() {
   text(equation, 16, 16);
   text(`Cost Function: ${cost().toFixed(8)}`, 16, 16 * 2 + 1);
   text(`FPS: ${fps}`, 16, 16 * 3 + 1);
+  text(`Learning Rate: ${alpha}`, 16, 16 * 4 + 1);
   if (frameCount % 30 === 0) {
     fps = frameRate().toFixed(0);
   }
