@@ -2,7 +2,7 @@
 
 const rangeMin = 0;
 const rangeMax = 1;
-const alpha = 0.25;
+const alpha = 0.05;
 
 let xs = [];
 let ys = [];
