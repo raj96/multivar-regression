@@ -2,7 +2,7 @@
 
 const rangeMin = 0;
 const rangeMax = 1;
-const alpha = 0.25;
+const alpha = 0.1;
 
 let xs = [];
 let ys = [];
@@ -10,7 +10,7 @@ let numberOfThetas = 2;
 let lineResolution = 0.1;
 let thetas = [];
 let fps;
-let correctThetasFor = 50;
+let correctThetasFor = 100;
 
 //y = theta1 * x + theta0
 function hTheta(x) {
