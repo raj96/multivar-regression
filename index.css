@@ -7,7 +7,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
   background: rgba(137, 43, 226, 0.411);
   font-family: 'Mada', sans-serif;
   font-family: 'Montserrat', sans-serif;
