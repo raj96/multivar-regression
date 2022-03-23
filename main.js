@@ -101,7 +101,9 @@ function setup() {
   noFill();
   frameRate(144);
   thetas = new Array(numberOfThetas);
-  thetas.fill(0);
+  for(let i = 0; i < numberOfThetas; i++) {
+    thetas[i] = random(0,2);
+  }
   fps = frameRate().toFixed(0);
 }
 
@@ -129,7 +131,7 @@ function resetThetas() {
 
 function increaseThetas() {
   numberOfThetas += 1;
-  thetas.push(0);
+  thetas.push(random(0,2));
 }
 
 function decreaseThetas() {
